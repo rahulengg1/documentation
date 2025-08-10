@@ -32,7 +32,7 @@ const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
   url: "https://rahulengg1.github.io",
-  baseUrl: "/documentation/",
+  baseUrl: "/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
