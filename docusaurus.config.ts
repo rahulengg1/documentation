@@ -39,6 +39,7 @@ const config: Config = {
                 "https://github.com/rahulengg1/my-docs/edit/main/",
             docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
         },
+        blog: false,
         theme: {
             customCss: require.resolve("./src/css/custom.css"),
         },
