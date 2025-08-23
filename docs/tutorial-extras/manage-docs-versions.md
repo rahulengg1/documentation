@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+tags:
+  - test
 ---
 
 # Manage Docs Versions
@@ -34,7 +36,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: "docsVersionDropdown",
+          type: 'docsVersionDropdown',
         },
         // highlight-end
       ],

@@ -30,7 +30,7 @@ Add metadata to customize the sidebar label and position:
 
 ```md title="docs/hello.md" {1-4}
 ---
-sidebar_label: "Hi!"
+sidebar_label: 'Hi!'
 sidebar_position: 3
 ---
 
@@ -41,14 +41,14 @@ This is my **first Docusaurus document**!
 
 It is also possible to create your sidebar explicitly in `sidebars.js`:
 
-```diff title="sidebars.js"
+```js title="sidebars.js"
 module.exports = {
   tutorialSidebar: [
     {
       type: 'category',
       label: 'Tutorial',
--     items: [...],
-+     items: ['hello'],
+      // highlight-next-line
+      items: ['hello'],
     },
   ],
 };
