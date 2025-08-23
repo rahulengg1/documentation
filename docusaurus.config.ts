@@ -9,7 +9,7 @@ import type * as OpenApiPlugin from "docusaurus-plugin-openapi-docs";
 const config: Config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: "https://rahulengg1.github.io/",
+  url: "https://rahulengg1.github.io",
   baseUrl: "/",
   trailingSlash: false,
   onBrokenLinks: "throw",
@@ -20,6 +20,11 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rahulengg1", // Usually your GitHub org/user name.
   projectName: "documentation", // Usually your repo name.
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
   presets: [
     [
