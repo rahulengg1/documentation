@@ -10,7 +10,7 @@ const config: Config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
   url: "https://rahulengg1.github.io",
-  baseUrl: "/documentation/",
+  baseUrl: "/",
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -18,8 +18,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "rahulengg1", // Usually your GitHub org/user name.
-  projectName: "documentation", // Usually your repo name.
+  //organizationName: "rahulengg1", // Usually your GitHub org/user name.
+ // projectName: "documentation", // Usually your repo name.
 
   i18n: {
     defaultLocale: 'en',
